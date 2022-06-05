@@ -150,7 +150,7 @@ img {
   color: #656565;
 }
 
-.pricing.featured .listing-badges {
+.pricing .listing-badges {
   position: absolute;
   top: 0;
   z-index: 999;
@@ -163,7 +163,7 @@ img {
   height: 100px;
 }
 
-.pricing.featured .featured {
+.pricing .popular {
   float: left;
   transform: rotate(-45deg);
   left: -67px;
@@ -177,7 +177,7 @@ img {
   font-weight: 500;
   color: #fff;
 }
-.pricing.featured .featured { background: #bb1e72; }
+.pricing .popular { background: #bb1e72; }
 
 .organ-name {
   color: #3f535e;
