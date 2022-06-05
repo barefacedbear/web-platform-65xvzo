@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar { width: 4px; }
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bb1e72;
+  border-radius: 3px;
+}
+
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -10,6 +26,7 @@
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  vertical-align: bottom;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -84,17 +101,17 @@ img {
   margin-bottom: 0;
 }
 .pricing {
-  text-align: center;
-  margin-bottom: 30px;
   position: relative;
-  z-index: 9;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  height: 430px;
 }
 
 .pricing .price-header {
+  text-align: center;
   width: 100%;
   background: #fff;
   padding: 35px 20px;
+  height: 160px;
 }
 
 .pricing .price-header .title {
@@ -114,6 +131,8 @@ img {
 .pricing .content {
   padding: 20px 20px 30px;
   background: #f9f9f9;
+  height: 270px;
+  overflow-y: auto;
 }
 
 .pricing .content ul {
@@ -153,28 +172,7 @@ img {
   font-weight: 500;
   color: #fff;
 }
-.pricing.featured .featured {
-  background: #f0151f;
-}
-.btn-outline {
-  border: solid 1px #f0151f;
-  color: #f0151f;
-}
-
-.btn-outline:hover {
-  border: solid 1px #dc141d;
-  background: #dc141d;
-  color: #fff;
-}
-.button-theme {
-  background: #f0151f;
-  color: #fff !important;
-}
-
-.button-theme:hover {
-  background: #dc141d;
-  color: #fff;
-}
+.pricing.featured .featured { background: #bb1e72; }
 
 .pricing-btn {
   padding: 7px 25px 5px;
