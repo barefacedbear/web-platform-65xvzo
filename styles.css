@@ -14,7 +14,7 @@
 }
 
 
-.material-icons {
+.material-icons-outlined {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -27,6 +27,7 @@
   white-space: nowrap;
   direction: ltr;
   vertical-align: bottom;
+  color: #bb1e72;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -100,10 +101,14 @@ img {
   font-size: 18px;
   margin-bottom: 0;
 }
+
+.col-sm-12 { margin-bottom: 2rem; }
+
 .pricing {
   position: relative;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   height: 430px;
+  font-family: 'Poppins';
 }
 
 .pricing .price-header {
@@ -174,11 +179,8 @@ img {
 }
 .pricing.featured .featured { background: #bb1e72; }
 
-.pricing-btn {
-  padding: 7px 25px 5px;
-  border-radius: 2px;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+.organ-name {
+  color: #3f535e;
+  margin: 11px 0 5px 0;
+  font-weight: 600;
 }
